@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+*.sqlite
+*.log
+media/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.cache
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Sphinx documentation
+docs/_build/
+build/
+*.egg-info/
+dist/
+
+# VS Code settings
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local environment variables
+.env.dev
+*.env
